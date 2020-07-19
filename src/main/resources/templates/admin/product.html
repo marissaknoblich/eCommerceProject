@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 <head>
-<title>Page Title</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link th:replace="fragments/head">
 </head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+<h1>Product</h1>
+<p> Everybody loves Product<p>
+  <p><button>Add to Cart</button></p>
 </body>
 </html>
+    
